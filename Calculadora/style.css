@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(230, 229, 229);
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.screen{
+    background-color: rgb(181, 181, 184);
+    width: 80%;
+    max-width: 300px;
+    display: flex;
+    justify-content: right;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    margin: auto;
+    height: 50px;
+}
+
+/* FALTA FAZER O TRATAMENTO PARA QUE O NÚMERO NÃO SAI DO VISOR */
+
+.calculator{
+    width: 80%;
+    max-width: 300px;
+    background-color: rgb(163, 158, 159);
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10px ;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 3px;
+    width: 25%;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
+
+.double{
+    width: 50%;
+}
